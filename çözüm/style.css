@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Produkt-Bold-Web;
+  src: url(fonts/Produkt-Bold-Web.woff);
+  font-display: swap;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Produkt-Bold-Web, serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .news {
+  position: relative;
+}
+.container .news.big {
+  width: 650px;
+  height: 370px;
+}
+.container .news.big .title {
+  font-size: 36px;
+}
+.container .news.small {
+  width: 320px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.container .news.small:last-of-type {
+  padding-bottom: 0;
+}
+.container .news.small .title {
+  font-size: 21px;
+}
+.container .news img {
+  width: 100%;
+  height: 100%;
+}
+.container .news .title {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 10px 15px;
+  text-shadow: 1px 1px 1px #000;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.container .small-news {
+  margin-left: 10px;
+}
+.container .top-news {
+  display: flex;
+}
+.container .bottom-news {
+  display: flex;
+}
+.container .bottom-news .news {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.container .bottom-news .news:last-of-type {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

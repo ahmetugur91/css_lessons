@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Produkt-Bold-Web;
+    src: url(fonts/Produkt-Bold-Web.woff);
+    font-display: swap;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Produkt-Bold-Web, serif;
+}
+
+.container {
+}
+
+.container .news {
+
+}
+
+.container .news.big {
+    width: 650px;
+    height: 370px;
+}
+
+.container .news.big .title {
+    /* Font boyutu 36px olacak */
+}
+
+.container .news.small {
+    width: 320px;
+    height: 180px;
+}
+
+.container .news.small:last-of-type {
+
+}
+
+.container .news.small .title {
+    /* Font boyutu 21px olacak */
+}
+
+.container .news img {
+
+}
+
+.container .news .title {
+
+}
+
+.container .small-news {
+
+}
+
+.container .top-news {
+}
+
+.container .bottom-news {
+}
+
+.container .bottom-news .news {
+
+}
+
+.container .bottom-news .news:last-of-type {
+
+}
+
+/*# sourceMappingURL=style.css.map */
